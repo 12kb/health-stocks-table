@@ -1,0 +1,27 @@
+{
+  "name": "health-stocks-table",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/12kb/health-stocks-table.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/12kb/health-stocks-table/issues"
+  },
+  "homepage": "https://github.com/12kb/health-stocks-table#readme",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/dotenv": "^8.2.0",
+    "alphavantage-ts": "^1.1.4",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.2"
+  }
+}
